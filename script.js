@@ -14,13 +14,15 @@ const timeCount = document.querySelector(".timer .timer_sec");
 // if startQuiz button is clicked
 
 start_btn.onclick = ()=>{
+	start_btn.style.display = 'none';
 	info_box.classList.add("activeInfo"); //show info box
 }
 
 // if exitQuiz button is clicked 
 
 exit_btn.onclick = ()=>{
-	info_box.classList.remove("activeInfo"); //hide info box
+	window.location.reload(); //reload the current window
+	//info_box.classList.remove("activeInfo"); //hide info box
 }
 
 // if continueQuiz button clicked
