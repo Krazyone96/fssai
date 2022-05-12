@@ -90,6 +90,7 @@ body{
 .info_box .buttons{
 	height: 60px;
 	display: flex;
+	position: fixed;
 	align-items: center;
 	justify-content: flex-end;
 	padding: 0 30px;
