@@ -6,7 +6,7 @@ let questions = [
 	question: "What is the fat content of Low Fat Cream?",
 	answer: "25.0%",
 	options: [
-		"15%",
+		"15.0%",
 		"25.0%",
 		"40.0%",
 		"60.0%"
