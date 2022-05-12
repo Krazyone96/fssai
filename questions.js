@@ -15,23 +15,23 @@ let questions = [
 	{
 	numb: 2,
 	question: "What is the fat content of Medium Fat Cream?",
-	answer: "forty percent",
+	answer: "40.0%",
 	options: [
-		"fifteen percent",
-		"twenty five percent",
-		"forty percent",
-		"sixty percent"
+		"60.0%",
+		"25.0%",
+		"15.0%",
+		"40.0%"
 	]
 	},
 	{
 	numb: 3,
 	question: "What is the fat content of High Fat Cream?",
-	answer: "sixty percent",
+	answer: "60.0%",
 	options: [
-		"fifteen percent",
-		"twenty five percent",
-		"forty percent",
-		"sixty percent"
+		"25.0%",
+		"60.0%",
+		"15.0%",
+		"40.0%"
 	]
 	},
 ];
