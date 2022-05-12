@@ -159,11 +159,11 @@ function showResult(){
 	const scoreText = result_box.querySelector(".score_text");
 	if (userScore > 3){ // if the user scored more than 3
 		//creating a new span tag and passing the user score number and total question number 
-		let scoreTag = '<span>and Congrats!, You got <p>' + userScore +'</p> out of <p>' + questions.length +'</p></span>';
+		let scoreTag = '<span><p>and Congrats!, You got ' + userScore +' out of ' + questions.length +'</p></span>';
 		scoreText.innerHTML = scoreTag; //adding new span tag inside score_Text
 	}
 	else if(userScore > 1){ // if the user scored more than 1
-		let scoreTag = '<span>and nice, You got<p>' + userScore +'</p> out of <p>' + questions.length +'</p></span>';
+		let scoreTag = '<span><p>and nice, You got ' + userScore +' out of ' + questions.length +'</p></span>';
 		scoreText.innerHTML = scoreTag;
 	}
 	else{ // if the user scored less than 1
