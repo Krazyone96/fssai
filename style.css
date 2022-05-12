@@ -90,7 +90,7 @@ body{
 	font-weight: 600;
 	color: #007bff;
 }
-
+/*
 .info_box .buttons{
 	height: 60px;
 	display: flex;
@@ -100,11 +100,32 @@ body{
 	padding: 0 30px;
 	/* border-top: 1px solid lightgrey; */ 
 }
-
-.info_box .buttons button{
+*/
+.info_box .buttons .quit{
+	position: absolute; 
 	margin: 0 5px;
-	height: 40 px;
-	width: 100 px;
+	background: #ff0000;
+	color: #000000;
+	height: fit-content;
+	width: fit-content;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid #007bff;
+	transition: all 0.3s ease;
+}
+
+.info_box .buttons .restart{
+	position: absolute;
+	right: 0;
+	background: #33cc33; 
+	color: #000000;
+	margin: 0 5px;
+	height: fit-content;
+	width: fit-content;
 	font-size: 16px;
 	font-weight: 500;
 	cursor: pointer;
