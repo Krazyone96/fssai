@@ -98,7 +98,7 @@ body{
 	align-items: center;
 	justify-content: flex-end;
 	padding: 0 30px;
-	/* border-top: 1px solid lightgrey; */ 
+	border-top: 1px solid lightgrey; 
 }
 */
 .info_box .buttons .quit{
