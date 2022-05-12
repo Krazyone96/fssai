@@ -52,7 +52,8 @@ body{
 }
 
 .info_box{
-	width: 540px;
+	height: 10%;
+	width: 50%;
 	background: #fff;
 	border-radius: 5px;
 	transform: translate(-50%, -50%) scale(0.9);
