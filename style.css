@@ -137,7 +137,7 @@ body{
 }
 
 .quiz_box{
-	width: 550px;
+	width: 80%;
 	background: #fff;
 	border-radius: 5px;
 	transform: translate(-50%, -50%) scale(0.9);
@@ -150,6 +150,7 @@ body{
 	position: relative;
 	z-index: 2;
 	height: 70px;
+	width: 80%;
 	padding: 0 30px;
 	background: #fff;
 	border-radius: 5px 5px 0 0;
@@ -203,6 +204,7 @@ body{
 	bottom: 0px;
 	left: 0px;
 	height: 3px;
+	width: 80%;
 	background: #007bff;
 }
 
