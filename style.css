@@ -33,6 +33,8 @@ body{
 .quiz_box.activeQuiz,
 .result_box.activeResult{
 	position: absolute;
+	height: fit-content;
+	width: fit-content;
 	opacity: 1;
 	z-index: 5;
 	pointer-events: auto;
