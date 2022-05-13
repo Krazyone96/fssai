@@ -329,9 +329,9 @@ footer button{
 	cursor: pointer;
 	border: none;
 	outline: none;
-	color: #fff;
+	color: #000000;
 	border-radius: 5px;
-	background: #007bff;
+	background: #00ff00;
 	line-height: 10px;
 	opacity: 0;
 	pointer-events: none;
