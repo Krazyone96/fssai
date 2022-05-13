@@ -300,6 +300,7 @@ section .option_list .option .icon{
 footer{
 	height: 60px;
 	padding: 0 30px;
+	background: #ff00ff;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
