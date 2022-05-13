@@ -309,6 +309,8 @@ footer{
 footer .total_que span{
 	display: flex;
 	user-select: none;
+	background: #ff0000;
+	border-radius: 10px;
 }
 
 footer .total_que span p{
