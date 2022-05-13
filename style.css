@@ -309,6 +309,8 @@ footer{
 
 footer .total_que{
 	height: 40px;
+	font-size: 18px;
+	line-height: 10px;
 	display: flex;
 	user-select: none;
 	background: #ff0000;
@@ -318,8 +320,6 @@ footer .total_que{
 footer .total_que span p{
 	font-weight: 500;
 	padding: 0 5px;
-	font-size: 18px;
-	line-height: 10px;
 }
 
 footer .total_que span p:first-child{
