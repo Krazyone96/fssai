@@ -148,7 +148,7 @@ body{
 }
 
 .quiz_box header{
-	position: relative;
+	position: absolute;
 	z-index: 2;
 	max-height: 80%;
 	width: 80%;
