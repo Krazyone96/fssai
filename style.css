@@ -306,7 +306,7 @@ footer{
 	border-top: 1px solid lightgrey;
 }
 
-footer .total_que span{
+footer .total_que /* span */ {
 	display: flex;
 	user-select: none;
 	background: #ff0000;
