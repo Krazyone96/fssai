@@ -148,7 +148,7 @@ body{
 
 .quiz_box{
 	width: 80%;
-	background: #fff;
+	background: #ff0000;
 	border-radius: 5px;
 	transform: translate(-50%, -50%) scale(0.9);
 	opacity: 0;
