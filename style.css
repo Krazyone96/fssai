@@ -312,12 +312,14 @@ footer .total_que{
 	font-size: 18px;
 	line-height: 10px;
 	display: flex;
+	text-align: center;
 	user-select: none;
 	background: #ff0000;
 	border-radius: 10px;
 }
 
 footer .total_que span p{
+	text-align: center;
 	font-weight: 500;
 	padding: 0 5px;
 }
